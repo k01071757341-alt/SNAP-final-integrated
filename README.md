@@ -1,6 +1,6 @@
 # S.N.A.P
 
-S.N.A.P은 스마트 발렛 주차 시스템의 클라이언트–Raspberry Pi Gateway 통신을 검증하기 위한 공개 프로토타입이다. Web Mock, iOS·Android 공통 Flutter 클라이언트, FastAPI 기반 Pi Simulator를 포함한다.
+S.N.A.P은 모바일 앱에서 예상 주차시간을 선택하고 주차·출차를 요청하는 스마트 발렛 주차 시스템이다. Raspberry Pi가 주차면을 배정하고, 센서와 운반 로봇의 상태를 앱에 전달한다. 모형 주차장을 이용해 사용자 요청부터 장비 동작까지 연결하는 것을 목표로 한다.
 
 > 현재 검증 범위는 클라이언트와 메모리 기반 Pi Simulator 사이의 REST·WebSocket 흐름이다. 실제 Arduino, GPIO, 센서, 모터와 물리 안전 제어는 연결하거나 검증하지 않았다.
 
