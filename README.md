@@ -2,7 +2,7 @@
 
 S.N.A.P은 모바일 앱에서 예상 주차시간을 선택하고 주차·출차를 요청하는 스마트 발렛 주차 시스템이다. Raspberry Pi가 주차면을 배정하고, 센서와 운반 로봇의 상태를 앱에 전달한다. 모형 주차장을 이용해 사용자 요청부터 장비 동작까지 연결하는 것을 목표로 한다.
 
-> 현재 검증 범위는 클라이언트와 메모리 기반 Pi Simulator 사이의 REST·WebSocket 흐름이다. 실제 Arduino, GPIO, 센서, 모터와 물리 안전 제어는 연결하거나 검증하지 않았다.
+> 이 저장소는 Android·iOS 공통 Flutter 고객 앱, Raspberry Pi Gateway, 통신 비교·개발용 Web Mock을 포함한다. 기본 개발·시연 환경은 실제 Galaxy 또는 iPhone·iPad와 실제 Raspberry Pi다.
 
 ![S.N.A.P Web Mock](assets/readme/snap-web-mock.png)
 
